@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day1-of-html</title>
+</head>
+<body>
+    <h1>HELLO WORLD-this is h1 heading tag</h1>
+    <h2>I AM VASAVI-this is h2 heading tag</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis vitae fuga quidem<br> adipisci mollitia, alias impedit, facere officiis doloremque, rerum natus saepe ratione perferendis<br> in fugiat accusantium optio dolorum.</p>
+    <p>this is the secong paragraph of the web page<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis eaque dicta doloremque, odio ab vero deleniti consequuntur optio quisquam illum, atque sit ipsa, neque iste mollitia alias nostrum praesentium.</p>
+</body>
+</html>
