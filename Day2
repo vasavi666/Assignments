@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Formatting Examples</title>
+</head>
+<body>
+    <h1>Text Formatting Examples</h1>
+
+    <p><strong>Important Text:</strong> This text is <strong>important</strong>.</p>
+    <p><em>Emphasized Text:</em> This text is <em>emphasized</em>.</p>
+    <p><u>Underlined Text:</u> This text is <u>underlined</u>.</p>
+    <p><s>Strikethrough Text:</s> This text is <s>strikethrough</s>.</p>
+</body>
+</html>
