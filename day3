@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Favorite Things</title>
+</head>
+<body>
+  <h2>Top 3 Movies</h2>    
+    <ul> 
+    <li>whisper of the heart</li>
+    <li>Howl's moving castle</li>   
+    <li>kiki's delivery service</li></ul>
+    <h2>Weekly Tasks</h2>
+        <ol>
+            <li>Plan today's schedule</li>
+            <li>Work on demo projects</li>
+            <li>do assignments in skillcaptain</li>
+        </ol>
+        <h2>Favorite picture</h2>
+        <img 
+        src="https://wallpapers.com/images/high/rainbow-galaxy-moon-on-night-sky-mjxyx9zl6ra1ebfi.webp"
+        alt="galaxy theme moon">
+ </body>
+</html>
