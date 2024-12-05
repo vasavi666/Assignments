@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          p {
+            color: blue;
+            font-size: 16px;
+        }
+        .button {
+            background-color: lightgray;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        #header{
+            background-color: darkgray;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        Welcome to My Styled Page
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem libero quasi iste vel voluptatum corrupti earum repudiandae placeat. Sequi tempora maxime maiores molestias commodi quam nobis! Aliquam, eos voluptatibus?</p>
+    <button class="button">click me</button>
+    
+</body>
+</html>
