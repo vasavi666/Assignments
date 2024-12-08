@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<style>
+ .body{
+    background-color: #21ff15;
+      text-align: center;
+  
+ }
+</style>  
+<body class="body">
+  
+    <h1 id="my text">Welcome</h1>
+    <label>USER NAME : </label>
+    <input id="my input" type="text" placeholder="Enter your name"><br><br>
+    <label>EMAIL    : </label>
+    <input id="my email" type="email" placeholder="Enter your email"><br><br>
+    <label>PASSWORD : </label>
+    <input id="my password" type="password" placeholder="Enter your password"><br><br>
+    <button id="submit">SUBMIT</button>
+    <p id="errorMessage" style="color: red;"></p>
+    <script>
+     
+        document.getElementById("submit").onclick = function() {
+         const username = document.getElementById("my input").value;
+        const email = document.getElementById("my email").value;
+        const password = document.getElementById("my password").value;
+            document.getElementById("my text").innerText = `Welcome, ${username}!`;
+            const errorMessage = document.getElementById("errorMessage");
+        errorMessage.innerText = "";
+
+        if (!username || !email || !password) {
+            errorMessage.innerText = "All fields are required.";
+            return;
+        }
+        };
+    </script>
+</body>
+</html>
