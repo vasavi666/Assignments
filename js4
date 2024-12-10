@@ -1,0 +1,11 @@
+//util.js  (Exporting multiple)
+export function factorial(n){
+      if (n === 0 || n === 1) {
+        return 1; 
+    }
+    return n * factorial(n - 1);
+}
+// main.js (Importing)
+import {factorial} from './util.js';
+
+console.log(factorial(5));    
